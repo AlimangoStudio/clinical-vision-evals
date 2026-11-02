@@ -12,6 +12,15 @@ A clinician can record **observed** features and clinician-interpreted lab-statu
 
 Long-term objective (requires separate validation and regulatory work): clinician-facing support for comparing vetted clinical evidence from licensed images, lab context, and verified diagnoses; display multiple hypotheses for professional consideration and independent verification. Not enabled in v0.1.
 
+
+## Long-term mission and physician-first pipeline
+
+**The full research mission is documented in [PROJECT_CHARTER.md](docs/PROJECT_CHARTER.md).** This is an enduring project independent of any grant. Its intended scope is evidence aggregation across patient-reported complaints, labs, pathology, X-ray/CT/MRI reports, physician notes, historical findings and curated literature—not just skin photographs.
+
+**Physician-first is mandatory:** the clinician records an independent baseline *before* any AI-generated hypotheses are revealed. The synthetic-only research pipeline validates and hashes that baseline, compiles evidence provenance, flags disagreements and illustrates reference overlaps. It never orders tests, rules out diseases or generates clinical diagnoses.
+
+New standalone modules: [capture_contract.py](src/clinical_vision_evals/capture_contract.py) and [evidence.py](src/clinical_vision_evals/evidence.py). They adapt safe, generic workflow invariants learned from PAPPS without copying private clinical code. See [extraction audit](docs/PAPPS_EXTRACTION.md).
+
 ## Quick start (offline, no API key)
 
 ```bash
