@@ -8,3 +8,7 @@
 - Run `PYTHONPATH=src python -m unittest discover -s tests -v` and `python scripts/check_public_artifacts.py` before committing.
 - Do not permit PR content to trigger secret-bearing workflows. Never run untrusted code with API keys.
 - A grant from Codex for Open Source is not authorization to use its API credits for clinical inference; obtain written confirmation of approved uses.
+
+## Binding project mission
+
+Read [docs/PROJECT_CHARTER.md](docs/PROJECT_CHARTER.md) before any substantive feature. Treat this as the long-term implementation objective, not a grant pitch. Enforce physician-first baseline recording before any AI-generated possibilities are displayed. Preserve original evidence and distinguish unverified AI claims from reported facts. No automatic diagnosis, exclusion, patient-specific test orders or prognosis. Every candidate requires evidence provenance and uncertainty. Do not commit PAPPS proprietary runtime source or patient data to this public repository. See docs/PORTING_PROVENANCE.md.
