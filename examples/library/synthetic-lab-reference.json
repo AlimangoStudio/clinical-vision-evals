@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1.0",
+  "case_id": "synthetic-lab-reference",
+  "origin": "synthetic",
+  "pattern_label": "Illustrative lab-context example (not a condition)",
+  "features": [
+    "itch"
+  ],
+  "lab_flags": [
+    {
+      "name": "eosinophils",
+      "flag": "elevated"
+    }
+  ],
+  "image_paths": [],
+  "source_url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/step-6-software-function-intended-provide-clinical-decision-support",
+  "source_title": "FDA: Clinical decision support guidance",
+  "limitations": "This example demonstrates lab-flag matching only; no disease-specific significance established.",
+  "context_notes": [
+    "Invented metadata only. Not a patient or validated training example."
+  ],
+  "review_status": "illustrative_unvalidated",
+  "license": "CC0-1.0"
+}

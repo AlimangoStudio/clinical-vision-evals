@@ -1,0 +1,6 @@
+All original synthetic sample records and the artificial geometric diagram in examples/ are dedicated by their creator, Alimango Studio, to the public domain under Creative Commons CC0 1.0 Universal, to the extent legally possible.
+
+License deed: https://creativecommons.org/publicdomain/zero/1.0/
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+External educational links are references only; their content is NOT included in this dedication.

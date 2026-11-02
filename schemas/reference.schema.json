@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic reference schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "case_id",
+    "origin",
+    "pattern_label",
+    "features",
+    "lab_flags",
+    "image_paths",
+    "source_url",
+    "source_title",
+    "limitations",
+    "review_status",
+    "license"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "origin": {
+      "const": "synthetic"
+    },
+    "pattern_label": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lab_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "flag"
+        ]
+      }
+    },
+    "image_paths": {
+      "const": []
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_title": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "context_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_status": {
+      "const": "illustrative_unvalidated"
+    },
+    "license": {
+      "const": "CC0-1.0"
+    }
+  }
+}

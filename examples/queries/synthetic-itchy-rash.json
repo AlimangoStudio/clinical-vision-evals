@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1.0",
+  "synthetic": true,
+  "observed_features": [
+    "itch",
+    "erythema",
+    "localized",
+    "scaling"
+  ],
+  "lab_flags": [
+    {
+      "name": "eosinophils",
+      "flag": "elevated"
+    }
+  ],
+  "attention_flags": []
+}

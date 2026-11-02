@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "clinical-vision-evals"
+version = "0.1.0"
+description = "Synthetic-data-first evaluation and reference-library toolkit for clinician-reviewed medical image observations"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+authors = [{name = "Alimango Studio"}]
+keywords = ["clinical", "vision", "evaluation", "reference-library", "research", "codex"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: Apache Software License", "Development Status :: 2 - Pre-Alpha"]
+[project.scripts]
+clinical-vision-evals = "clinical_vision_evals.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

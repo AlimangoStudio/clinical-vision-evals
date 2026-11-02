@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "case_id": "synthetic-changing-pigment",
+  "origin": "synthetic",
+  "pattern_label": "Illustrative changing pigmented lesion pattern",
+  "features": [
+    "pigmented_spot",
+    "border_irregularity",
+    "change_over_time",
+    "color_variation"
+  ],
+  "lab_flags": [],
+  "image_paths": [],
+  "source_url": "https://www.aad.org/public/diseases/skin-cancer/abcdes-melanoma",
+  "source_title": "American Academy of Dermatology: ABCDEs of melanoma",
+  "limitations": "Cannot identify cancer or exclude benign conditions. Clinical examination and clinician-directed testing are essential.",
+  "context_notes": [
+    "Invented metadata only. Not a patient or validated training example."
+  ],
+  "review_status": "illustrative_unvalidated",
+  "license": "CC0-1.0"
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "case_id": "synthetic-ring-pattern",
+  "origin": "synthetic",
+  "pattern_label": "Illustrative annular scaly pattern",
+  "features": [
+    "ring_shaped",
+    "scaling",
+    "itch",
+    "raised_border"
+  ],
+  "lab_flags": [],
+  "image_paths": [],
+  "source_url": "https://www.cdc.gov/ringworm/signs-symptoms/",
+  "source_title": "CDC: Symptoms of ringworm",
+  "limitations": "Ring shapes are nonspecific, may occur in unrelated conditions.",
+  "context_notes": [
+    "Invented metadata only. Not a patient or validated training example."
+  ],
+  "review_status": "illustrative_unvalidated",
+  "license": "CC0-1.0"
+}

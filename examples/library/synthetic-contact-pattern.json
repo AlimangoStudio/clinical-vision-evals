@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "case_id": "synthetic-contact-pattern",
+  "origin": "synthetic",
+  "pattern_label": "Illustrative contact-pattern erythema",
+  "features": [
+    "erythema",
+    "itch",
+    "localized",
+    "contact_distribution"
+  ],
+  "lab_flags": [],
+  "image_paths": [],
+  "source_url": "https://www.aad.org/public/diseases/eczema/types/contact-dermatitis",
+  "source_title": "American Academy of Dermatology: Contact dermatitis",
+  "limitations": "Does not establish contact dermatitis; requires exposure history and examination.",
+  "context_notes": [
+    "Invented metadata only. Not a patient or validated training example."
+  ],
+  "review_status": "illustrative_unvalidated",
+  "license": "CC0-1.0"
+}

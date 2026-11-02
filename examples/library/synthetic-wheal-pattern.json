@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "case_id": "synthetic-wheal-pattern",
+  "origin": "synthetic",
+  "pattern_label": "Illustrative wheal-like pattern",
+  "features": [
+    "raised_wheals",
+    "itch",
+    "transient",
+    "erythema"
+  ],
+  "lab_flags": [],
+  "image_paths": [],
+  "source_url": "https://www.aad.org/public/diseases/a-z/hives-overview",
+  "source_title": "American Academy of Dermatology: Hives",
+  "limitations": "Requires confirmation of duration, chronology, triggers and examination.",
+  "context_notes": [
+    "Invented metadata only. Not a patient or validated training example."
+  ],
+  "review_status": "illustrative_unvalidated",
+  "license": "CC0-1.0"
+}

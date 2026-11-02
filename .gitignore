@@ -1,0 +1,27 @@
+# Secrets and patient data
+.env
+.env.*
+!.env.example
+secrets/
+private/
+patients/
+patient-data/
+clinical-uploads/
+uploads/
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.xlsx
+*.csv
+*.sqlite
+*.db
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+.DS_Store

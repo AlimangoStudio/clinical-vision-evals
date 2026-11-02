@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1.0",
+  "synthetic": true,
+  "observed_features": [
+    "pigmented_spot",
+    "border_irregularity",
+    "change_over_time"
+  ],
+  "lab_flags": [],
+  "attention_flags": [
+    "change_over_time"
+  ]
+}

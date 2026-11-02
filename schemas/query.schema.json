@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic query schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "synthetic",
+    "observed_features",
+    "lab_flags",
+    "attention_flags"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "synthetic": {
+      "const": true
+    },
+    "observed_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lab_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "flag"
+        ]
+      }
+    },
+    "attention_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
