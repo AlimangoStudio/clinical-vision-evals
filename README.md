@@ -71,3 +71,19 @@ Merely calling software an 'assistant' or 'not a source of truth' does not exemp
 ## License
 
 Software is Apache-2.0. Example records and synthetic diagram are created specifically for this repository and dedicated to CC0-1.0. External webpages are *linked*, not copied; each publisher retains its rights. Trademarks remain with their owners.
+
+## New: physician-first multimodal evidence research (synthetic only)
+
+The long-term specification is in [Project Charter](docs/PROJECT_CHARTER.md). This is a genuine open-source research track independent of the Codex grant application. See [PAPPS adaptation provenance](docs/PORTING_PROVENANCE.md).
+
+The *experimental* evidence aggregator combines clinician-described features from separately attributed synthetic complaint, lab, imaging-report and clinical-observation records. It requires a separately entered physician baseline before reference comparisons appear; it does **not** read real lab PDFs or DICOM scans, infer diagnostic causes, recommend tests, or predict prognosis.
+
+```bash
+PYTHONPATH=src python -m clinical_vision_evals.cli analyze-evidence \
+  --bundle examples/evidence/synthetic-bundle.json \
+  --baseline examples/evidence/synthetic-physician-baseline.json \
+  --library examples/library
+node --test tests/js/syntheticPhotoCapture.test.mjs  # optional Node.js 22+
+```
+
+The optional browser utility is for **deliberately synthetic research pictures only**. Re-encoding can strip file metadata; it cannot determine whether pixels or captions contain protected patient information. Do not send patient inputs to public tests or issues. A checksum of the physician baseline is not a production audit signature.

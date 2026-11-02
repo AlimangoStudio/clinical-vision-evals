@@ -14,5 +14,10 @@ jobs:
           python-version: '3.12'
       - name: Run tests (no credentials, no external model calls)
         run: PYTHONPATH=src python -m unittest discover -s tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test synthetic browser capture adapter
+        run: node --test tests/js/syntheticPhotoCapture.test.mjs
       - name: Prevent private patient or production artifacts
         run: python scripts/check_public_artifacts.py

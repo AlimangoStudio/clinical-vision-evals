@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "case_key": "synthetic-demo-001",
+  "clinician_key": "synthetic-clinician",
+  "recorded_at": "2026-11-02T10:10:00+08:00",
+  "initial_observations": "Artificial rash findings from initial clinician examination.",
+  "initial_impression": "Undetermined; no diagnosis inferred.",
+  "reviewed_source_ids": [
+    "e-complaint",
+    "e-lab",
+    "e-physician"
+  ]
+}

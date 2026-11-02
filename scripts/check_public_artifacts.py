@@ -18,7 +18,7 @@ for path in ROOT.rglob("*"):
         errors.append(f"disallowed file type: {rel}")
     if path.stat().st_size > 5_000_000:
         errors.append(f"oversized file: {rel}")
-    if path.suffix.lower() in {".py", ".md", ".json", ".yml", ".yaml", ".txt", ".sh"}:
+    if path.suffix.lower() in {".py", ".md", ".json", ".yml", ".yaml", ".txt", ".sh", ".js", ".mjs"}:
         if SECRET_REGEX.search(path.read_text(encoding="utf-8")):
             errors.append(f"secret-like token found in: {rel}")
 if errors:
